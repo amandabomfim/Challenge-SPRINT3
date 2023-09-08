@@ -1,16 +1,11 @@
 import React from 'react';
-import ComponenteImagem from './components/ComponenteImagem';
-import ComponenteLogo from './components/ComponenteLogo';
-import ConteudoPrincipal from './components/ConteudoPrincipal';
+import { Outlet } from 'react-router-dom';
+
 
 export default function App() {
   return (
     <>
-        <ComponenteLogo/>
-        <ConteudoPrincipal/>
-        <ComponenteImagem />
-      
-  
+        <Outlet/>
     </>
   );
 }
