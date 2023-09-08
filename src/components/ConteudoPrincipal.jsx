@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ConteudoPrincipal() {
   return (
@@ -14,8 +15,8 @@ export default function ConteudoPrincipal() {
         </ul>
         </div>
         <div className='botoes-pagina-inicial'>
-        <button>Iniciar Vistoria</button> 
-        <button>Equipe</button> 
+        <Link to="/plano"><button>Iniciar Vistoria</button></Link>
+        <Link to="/equipe"><button>Equipe</button></Link>
         </div>
     </div>
   );
