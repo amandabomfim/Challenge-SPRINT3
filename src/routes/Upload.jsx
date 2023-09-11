@@ -8,7 +8,9 @@ export default function Upload() {
     <div className='logo'>
     <ComponenteLogo/>
     </div>
-    <div className='titulo'></div>
+    <div className='titulo'>VISTORIA</div>
+    <h1>FAÇA O UPLOAD DAS IMAGENS PARA REALIZARMOS A NOSSA VISTORIA</h1>
+    
     <div className="LinksNav">
             <Link to="/cadastro/bike">Anterior</Link>
             <Link to="/confirmacao">Próximo</Link>
