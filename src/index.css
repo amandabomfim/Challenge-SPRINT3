@@ -5,11 +5,18 @@
 }
 
 :root {
-  background-image: url(./images/plano-de-fundo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
   font-family: 'Roboto', sans-serif;
-  color:white;
+  color:black;
+}
+
+.componente-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
+}
+
+.componente-logo img {
+  width: 217px;
+  height: 120px;
 }
