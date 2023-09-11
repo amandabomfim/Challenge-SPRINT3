@@ -6,7 +6,7 @@ import "../styles/Plano.css";
 
 export default function Plano() {
     return (
-        <>
+        <div className="section-plano">
             <div className="logo">
                 <ComponenteLogo />
             </div>
@@ -71,6 +71,6 @@ export default function Plano() {
                     </div>
                 </Link>
             </div>
-        </>
+        </div>
     );
 }
