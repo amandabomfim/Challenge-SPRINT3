@@ -13,6 +13,5 @@ export default function Cadastro() {
             <Link to="/cadastro/bike">Próximo</Link>
         </div>
         </>
-        
     );
 }
