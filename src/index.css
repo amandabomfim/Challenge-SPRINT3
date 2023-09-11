@@ -5,13 +5,8 @@
 }
 
 :root {
-  background-image: url(./images/plano-de-fundo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
   font-family: 'Roboto', sans-serif;
-  color:white;
+  color:black;
 }
 
 .componente-logo {
@@ -23,7 +18,5 @@
 
 .componente-logo img {
   width: 217px;
-  height: 79px;
-  border-radius: 15px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 120px;
 }
