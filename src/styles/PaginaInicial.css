@@ -21,18 +21,6 @@
 }
 
 /* Estilizando a logo */
-.componente-logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-.componente-logo img {
-    width: 217px;
-    height: 79px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
 
 /* Estilizando o conteúdo principal */
 .conteudoPrincipal {
