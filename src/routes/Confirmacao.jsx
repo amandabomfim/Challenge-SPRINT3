@@ -1,4 +1,5 @@
 import React from 'react'
+import ComponenteLogo from '../components/ComponenteLogo';
 
 export default function Confirmacao() {
   return (
@@ -6,7 +7,7 @@ export default function Confirmacao() {
       <div className='logo'>
       <ComponenteLogo/>
       </div>
-      <div className='titulo'></div>
+      <div className='titulo'>CONFIRMAÇÃO</div>
       <div>Confirmacao</div>
     </>
   )
