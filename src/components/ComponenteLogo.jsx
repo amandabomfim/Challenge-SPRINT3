@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoPorto from '../images/logo2.png'
+import LogoPorto from '../images/logoPreto.png';
 
 export default function ComponenteLogo() {
   return (
