@@ -1,0 +1,54 @@
+.titulo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+
+/* Plano.css */
+
+.plano-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+  }
+  
+  .pedalEssencial,
+  .pedalLeve,
+  .pedalElite {
+    flex: 1;
+    max-width: calc(30% - 20px);
+    color:#fff;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 600px;
+    width: 50%;
+    flex-direction: center;
+    text-decoration: none;
+  }
+
+  .pedalEssencial ul,
+  .pedalLeve ul,
+  .pedalElite ul {
+       list-style: none;
+       text-decoration: none;
+       color: #000; 
+       text-align: center;
+       
+
+  }
+
+.plano-container a{
+    text-decoration: none;
+}
+
+  
+
+   
+  
+ 
+
+  
+  
