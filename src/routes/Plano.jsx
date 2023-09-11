@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ComponenteLogo from "../components/ComponenteLogo";
 import ComponentePlano from "../components/ComponetePlano";
-import '../styles/Plano.css';
+import "../styles/Plano.css";
 
 export default function Plano() {
   return (
@@ -11,23 +11,25 @@ export default function Plano() {
         <ComponenteLogo />
       </div>
       <div className="titulo">ESCOLHA SEU SEGURO</div>
-      
 
       <div className="plano-container">
-        <div className="pedalEssencial">
-          <Link to="/cadastro">
+        <Link to="/cadastro">
+          <div className="pedalEssencial">
             <ComponentePlano titulo="Pedal Essencial">
               <ul>
                 <li>Reparo de câmaras de ar.</li>
                 <li>Reparo ou troca de correntes.</li>
                 <li>Substituição ou regulagem de selim e canote de selim.</li>
-                <li>Substituição e regulagem manetes de freios e cabo de aço.</li>
-                <li>Substituição ou regulagem de freio dianteiro e traseiro.</li>
+                <li>
+                  Substituição e regulagem manetes de freios e cabo de aço.
+                </li>
+                <li>
+                  Substituição ou regulagem de freio dianteiro e traseiro.
+                </li>
               </ul>
             </ComponentePlano>
-          </Link>
-        </div>
-
+          </div>
+        </Link>
         <div className="pedalLeve">
           <Link to="/cadastro">
             <ComponentePlano titulo="Pedal Leve">
@@ -54,8 +56,8 @@ export default function Plano() {
                 </li>
                 <li>Instalação de suporte de parede e chão para bike.</li>
                 <li>
-                  Serviço de Leva e Traz, com limite de 50km, mediante agendamento
-                  prévio.
+                  Serviço de Leva e Traz, com limite de 50km, mediante
+                  agendamento prévio.
                 </li>
               </ul>
             </ComponentePlano>
