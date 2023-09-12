@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function CadastroBike() {
+export default function CadastroBike() {
   const [bikeData, setBikeData] = useState({
     modelo: '',
     tipo: '',
@@ -89,4 +89,4 @@ function CadastroBike() {
   );
 }
 
-export default CadastroBike;
+
