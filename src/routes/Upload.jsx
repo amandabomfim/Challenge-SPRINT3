@@ -5,17 +5,17 @@ import UploadFoto from '../images/UploadFoto.png'
 
 export default function Upload() {
   return (
-  <>
+  <main className='centralizar'>
     <div className='logo'>
     <ComponenteLogo/>
     </div>
-    <div className='titulo'><h1>VISTORIA</h1><h1>FAÇA O UPLOAD DAS IMAGENS PARA REALIZARMOS A NOSSA VISTORIA</h1></div>
+    <div className='titulo titulo-upload'><h1>VISTORIA</h1><h1>FAÇA O UPLOAD DAS IMAGENS PARA REALIZARMOS A NOSSA VISTORIA</h1></div>
     <img src={UploadFoto} alt="Upload" className='uploadFoto' />
 
     <div className="LinksNav">
             <Link to="/cadastro/bike">Anterior</Link>
             <Link to="/confirmacao">Próximo</Link>
         </div>
-  </>   
+  </main>   
   )
 }

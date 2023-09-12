@@ -4,21 +4,23 @@ import ComponenteLogo from "../components/ComponenteLogo";
 
 export default function Equipe() {
   return (
-    <>
+    <main>
       <div className="logo">
         <ComponenteLogo />
       </div>
-      <div className="titulo">EQUIPE</div>
-      <p>Equipe</p>
-      <h1>
-        99741 - Amanda Bomfim de Oliveira 
-        97798 - Ester Dutra da Silva 
-        550981 -Henrique Gerson Costa Correia 
-        99738 - Leonardo Dos Santos Guerra 
-        99004 -Maria Eduarda Ferreira da Mata 
-        551216 - Matheus Pinho Oliveira
-      </h1>
+      <div className="titulo-equipe"><h1>EQUIPE</h1></div>
+      <div className="equipe">
+      <ul>
+      <li>99741 - Amanda Bomfim de Oliveira </li>
+        <li>97798 - Ester Dutra da Silva</li> 
+        <li>550981 -Henrique Gerson Costa Correia</li> 
+        <li>99738 - Leonardo Dos Santos Guerra</li> 
+        <li>99004 -Maria Eduarda Ferreira da Mata</li> 
+        <li>551216 - Matheus Pinho Oliveira</li>
+        </ul>
+        </div>
+      
       <Link to="/">Voltar</Link>
-    </>
+    </main>
   );
 }
