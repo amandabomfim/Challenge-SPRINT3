@@ -53,8 +53,8 @@
     text-align: left;
 }
 
-.conteudoPrincipal button {
-    font-size: 1.5rem;
+.botao-padrao {
+    font-size: 1.2rem;
     color: white;
     background-color: #009EE2;
     padding: 1rem;
@@ -65,9 +65,13 @@
     transition: 0.2s ease-in-out;
 }
 
-.conteudoPrincipal button:hover {
+.botao-padrao:hover {
     filter: brightness(0.9);
     scale: 1.02;
+}
+
+.tamanho-1-5rem {
+    font-size: 1.5rem;
 }
 
 /* Estilizando a imagem à direita */
