@@ -11,11 +11,10 @@ export default function Upload() {
       </div>
       <div className="titulo">
         <h1>VISTORIA</h1>
-        <h1>FOTOS ENVIADAS COM SUCESSO!</h1>
-        <h1>
-          AS IMAGENS ESTÃO SENDO ANALISADAS PELA NOSSA EQUIPE E EM BREVE
-          ENTRAREMOS EM CONTATO PELO E-MAIL CADASTRADO.
-        </h1>
+        <h1>Escolha um local bem iluminado e com um fundo neutro para que a bicicleta seja claramente visível. </h1>
+        <h1>Evite áreas com muita sombra ou reflexos.</h1>
+        <h1>Tire as fotos de acordo com as posições indicadas. </h1>
+        <h1>Realize o upload das imagens no local indicado. </h1>
       </div>
       <img src={UploadFoto} alt="Upload" className="uploadFoto" />
 
