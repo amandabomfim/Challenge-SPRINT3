@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function CadastroBike() {
+export default function CadastroBike() {
   const [bikeData, setBikeData] = useState({
     modelo: '',
     tipo: '',
@@ -85,4 +85,4 @@ function CadastroBike() {
   );
 }
 
-export default CadastroBike;
+
