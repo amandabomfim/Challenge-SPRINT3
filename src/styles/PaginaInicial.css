@@ -45,12 +45,15 @@
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
+    color: #000;
 }
 
 .conteudoPrincipal li {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: left;
+    color: #000;
+    margin: 0.75rem;
 }
 
 .conteudoPrincipal button {
@@ -63,6 +66,8 @@
     cursor: pointer;
     border: none;
     transition: 0.2s ease-in-out;
+    margin-right: 1em;
+    
 }
 
 .conteudoPrincipal button:hover {
