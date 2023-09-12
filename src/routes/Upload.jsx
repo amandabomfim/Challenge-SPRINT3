@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ComponenteLogo from "../components/ComponenteLogo";
 import UploadFoto from "../images/UploadFoto.png";
+import ComponenteUpload from "../components/ComponenteUpload";
+import "../styles/Upload.css";
 
 export default function Upload() {
   return (
@@ -11,17 +13,46 @@ export default function Upload() {
       </div>
       <div className="titulo">
         <h1>VISTORIA</h1>
-        <h1>Escolha um local bem iluminado e com um fundo neutro para que a bicicleta seja claramente visível. </h1>
-        <h1>Evite áreas com muita sombra ou reflexos.</h1>
-        <h1>Tire as fotos de acordo com as posições indicadas. </h1>
-        <h1>Realize o upload das imagens no local indicado. </h1>
+        <div className="instrucaoFoto">
+        <ul>
+          <li>
+            Escolha um local bem iluminado e com um fundo neutro para que a
+            bicicleta seja claramente visível.{" "}
+          </li>
+          <li>Evite áreas com muita sombra ou reflexos.</li>
+          <li>Tire as fotos de acordo com as posições indicadas.</li>
+          <li>Realize o upload das imagens no local indicado.</li>
+        </ul>
+        </div>
       </div>
-      <img src={UploadFoto} alt="Upload" className="uploadFoto" />
-
+      <div className="alinhamentoUpload">
+        <img src={UploadFoto} alt="Upload" className="uploadFoto" />
+      </div>
       <div className="LinksNav">
         <Link to="/cadastro/bike">Anterior</Link>
         <Link to="/confirmacao">Próximo</Link>
       </div>
+
+      <div className="Upload-container">
+        <div className="fotoFrente">
+          <ComponenteUpload titulo="Foto Frontal"></ComponenteUpload>
+        </div>
+
+        <div className="fotoLateralEsquerda">
+          <ComponenteUpload titulo="Foto Lateral Esquerda"></ComponenteUpload>
+        </div>
+
+        <div className="fotoLateralDireita">
+          <ComponenteUpload titulo="Foto Lateral Direita"></ComponenteUpload>
+        </div>
+
+        <div className="fotoNumSerie">
+          <ComponenteUpload titulo="Foto Número Série"></ComponenteUpload>
+        </div>
+      </div>
     </>
   );
 }
+/*<div className="fotoFrontal">
+<ComponenteUpload titulo="Foto Frontal"></ComponenteUpload>
+</div>*/
