@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function CadastroBike() {
   const [bikeData, setBikeData] = useState({
@@ -17,8 +18,10 @@ function CadastroBike() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    navigate('/cadastro/upload');
   };
+
+  const navigate = useNavigate();
 
   return (
     <form onSubmit={handleSubmit}>
@@ -81,6 +84,7 @@ function CadastroBike() {
         />
       </label>
       <button type="submit">Cadastrar Bicicleta</button>
+      
     </form>
   );
 }

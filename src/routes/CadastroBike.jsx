@@ -14,10 +14,6 @@ export default function CadastroBike() {
         <div>
             <ComponenteCadastroBike/>
         </div>
-        <div className="LinksNav">
-            <Link to="/cadastro">Anterior</Link>
-            <Link to="/cadastro/upload">Próximo</Link>
-        </div>
         </>
     );
 }

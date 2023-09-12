@@ -19,8 +19,9 @@ export default function Equipe() {
         <li>551216 - Matheus Pinho Oliveira</li>
         </ul>
         </div>
-      
-      <Link to="/">Voltar</Link>
+      <div className="alinharCentro">
+      <Link to="/"><button className="botao-padrao"> Voltar</button></Link>
+      </div>
     </main>
   );
 }
