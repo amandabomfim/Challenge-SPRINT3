@@ -1,6 +1,6 @@
 import React from "react";
 import ComponenteLogo from "../components/ComponenteLogo";
-
+import PagConfirmacao from "../images/PagConfirmacao.png";
 export default function Confirmacao() {
   return (
     <>
@@ -15,7 +15,7 @@ export default function Confirmacao() {
             AS IMAGENS ESTÃO SENDO ANALISADAS PELA NOSSA EQUIPE E EM BREVE
             ENTRAREMOS EM CONTATO PELO E-MAIL CADASTRADO.{" "}
           </h1>
-
+          <img src={PagConfirmacao} alt="Confirmacao" className="PagConfirmacao" />
           
         </div>
       </div>
