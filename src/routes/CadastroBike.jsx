@@ -6,7 +6,7 @@ import "../styles/CadastroBike.css"
 
 export default function CadastroBike() {
     return (
-        <>
+        <main>
         <div className='logo'>
         <ComponenteLogo/>
         </div>
@@ -14,6 +14,6 @@ export default function CadastroBike() {
         <div>
             <ComponenteCadastroBike/>
         </div>
-        </>
+        </main>
     );
 }

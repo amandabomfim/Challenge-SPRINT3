@@ -16,13 +16,12 @@ function CadastroBike() {
     setBikeData({ ...bikeData, [name]: value });
   };
 
+  const navigate = useNavigate();
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     navigate('/cadastro/upload');
   };
-
-  const navigate = useNavigate();
-
   return (
     <form onSubmit={handleSubmit}>
       <label>
