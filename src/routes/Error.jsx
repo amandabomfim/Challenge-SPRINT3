@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import ComponenteLogo from '../components/ComponenteLogo';
+import { Link } from "react-router-dom";
 export default function Error() {
     return (
       <>
