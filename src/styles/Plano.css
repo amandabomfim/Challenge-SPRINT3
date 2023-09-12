@@ -7,7 +7,7 @@
 
     margin-top: 2rem;
 
-    color: #007bff;
+    color: #009EE2;
 }
 
 .section-plano {
@@ -47,7 +47,7 @@
     color: white;
 
     background-color: #ffffff; /* Fundo branco */
-    border: 1px solid #007bff; /* Borda azul */
+    border: 1px solid #009EE2; /* Borda azul */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
 
     border-radius: 10px;
@@ -84,7 +84,7 @@
 }
 
 .plano-container h1 {
-    color: #007bff;
+    color: #009EE2;
     font-size: 2rem;
 }
 
