@@ -100,15 +100,12 @@ main {
   padding: 2rem;
 }
 
-
-
-
 @media (max-width: 768px) {
   .titulo {
     font-size: 1rem;
   }
   .uploadFoto{
-    width: 200px;
+    width: 300px;
   }
 
   .uploadFoto:hover{
