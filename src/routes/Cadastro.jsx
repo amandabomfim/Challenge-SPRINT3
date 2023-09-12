@@ -52,7 +52,7 @@ export default function Cadastro() {
         <div className="campo">
           <label htmlFor="email">Email:</label>
           <input
-            type="email"
+            type="text"
             id="email"
             name="email"
             value={formData.email}
@@ -120,10 +120,6 @@ export default function Cadastro() {
           />
         </div>
       </form>
-      <div className="LinksNav">
-        <Link to="/plano">Anterior</Link>
-        <Link to="/cadastro/bike">Próximo</Link>
-      </div>
     </>
   );
 }
