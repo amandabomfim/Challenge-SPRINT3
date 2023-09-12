@@ -17,6 +17,7 @@ export default function Equipe() {
         <li>99738 - Leonardo Dos Santos Guerra</li> 
         <li>99004 -Maria Eduarda Ferreira da Mata</li> 
         <li>551216 - Matheus Pinho Oliveira</li>
+        <li>LINK DO REPOSITORIO: https://github.com/amandabomfim/Challenge-SPRINT3.git</li>
         </ul>
         </div>
       <div className="alinharCentro">

@@ -53,6 +53,4 @@ export default function Upload() {
     </>
   );
 }
-/*<div className="fotoFrontal">
-<ComponenteUpload titulo="Foto Frontal"></ComponenteUpload>
-</div>*/
+

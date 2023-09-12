@@ -50,7 +50,7 @@ export default function Cadastro() {
         <div className="campo">
           <label htmlFor="dataNascimento">Data de Nascimento:</label>
           <input
-            type="text"
+            type="date"
             id="dataNascimento"
             name="dataNascimento"
             value={formData.dataNascimento}
