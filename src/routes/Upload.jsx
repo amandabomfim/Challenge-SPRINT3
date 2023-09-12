@@ -1,15 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ComponenteLogo from "../components/ComponenteLogo";
 import UploadFoto from "../images/UploadFoto.png";
 import ComponenteUpload from "../components/ComponenteUpload";
+import NavButtons from "../components/NavButtons";
 import "../styles/Upload.css";
 
 export default function Upload() {
   return (
-    <>
+    <main>
       <div className="logo">
         <ComponenteLogo />
+      </div>
+      <div className="colunmConfirmacao">
+      <div className="LinksNavUpload">
+        <NavButtons
+        anterior="cadastro/bike"
+        proximo="confirmacao"
+        />
       </div>
       <div className="titulo">
         <h1>VISTORIA</h1>
@@ -17,7 +24,7 @@ export default function Upload() {
         <ul>
           <li>
             Escolha um local bem iluminado e com um fundo neutro para que a
-            bicicleta seja claramente visível.{" "}
+            bicicleta seja claramente visível.
           </li>
           <li>Evite áreas com muita sombra ou reflexos.</li>
           <li>Tire as fotos de acordo com as posições indicadas.</li>
@@ -28,11 +35,6 @@ export default function Upload() {
       <div className="alinhamentoUpload">
         <img src={UploadFoto} alt="Upload" className="uploadFoto" />
       </div>
-      <div className="LinksNav">
-        <Link to="/cadastro/bike">Anterior</Link>
-        <Link to="/confirmacao">Próximo</Link>
-      </div>
-
       <div className="Upload-container">
         <div className="fotoFrente">
           <ComponenteUpload titulo="Foto Frontal"></ComponenteUpload>
@@ -50,7 +52,7 @@ export default function Upload() {
           <ComponenteUpload titulo="Foto Número Série"></ComponenteUpload>
         </div>
       </div>
-    </>
+      </div>
+    </main>
   );
 }
-
