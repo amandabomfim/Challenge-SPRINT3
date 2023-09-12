@@ -15,8 +15,8 @@ export default function ConteudoPrincipal() {
         </ul>
         </div>
         <div className='botoes-pagina-inicial'>
-        <Link to="/plano"><button>Iniciar Vistoria</button></Link>
-        <Link to="/equipe"><button>Equipe</button></Link>
+        <Link to="/plano"><button className='botao-padrao tamanho-1-5rem'>Iniciar Vistoria</button></Link>
+        <Link to="/equipe"><button className='botao-padrao tamanho-1-5rem'>Equipe</button></Link>
         </div>
     </div>
   );
